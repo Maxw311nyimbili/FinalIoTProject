@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 
 # Load the trained model
-model = joblib.load('project1/temperature_predictor.pkl')
+model = joblib.load('temperature_predictor.pkl')
 
 # Streamlit app
 st.title("Temperature Prediction App")
