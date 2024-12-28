@@ -15,7 +15,7 @@ st.header("Enter the input parameters:")
 # Input fields for user to provide input
 humidity = st.number_input("Humidity (%)", min_value=0.0, max_value=100.0, step=0.1)
 light_intensity = st.number_input("Light Intensity (lux)", min_value=0.0, max_value=10000.0, step=0.1)
-time_category_numeric = st.number_input("Time (Enter 0 for morning, 1 for afternoon, or 2 for evening)", min_value=0, max_value=3, step=1)
+time_category_numeric = st.number_input("Time (Enter 0 for Morning, 1 for Afternoon, or 2 for Evening)", min_value=0, max_value=3, step=1)
 location_category = st.number_input("Location Category", min_value=1, max_value=10, step=1)
 
 # Predict temperature
